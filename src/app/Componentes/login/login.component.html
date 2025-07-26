@@ -1,0 +1,59 @@
+<div id="fondo">
+  <div id="main">
+
+    <div class="row row-cols-2">
+    <div id="inicioSesion" class="card .col-6">
+      <div class="card-body">
+        <h5 class="card-title">Iniciar Sesión</h5>
+      </div>
+    </div>
+   
+
+    <div id="registro" class="card .col-4">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center; padding: 5%;">Registro</h5>
+       <input  type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" >
+       <input type="email" class="form-control" placeholder="Correo" aria-label="Correo">
+       <input type="password" class="form-control" placeholder="Contraseña" aria-label="Contraseña">
+        <input type="password" class="form-control" placeholder="Confirmar Contraseña" aria-label="Confirmar Contraseña">
+        <button type="submit" class="btn btn-primary mt-3">Crear Cuenta</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Botón de inicio de sesión
+<button id="btn1" type="button" class="btn btn-primary" data-bs-toggle="modal"
+ data-bs-target="#exampleModal0">
+    <i class="fa-solid fa-circle-user text-xl mr-3"></i>
+  </button> -->
+<!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">--INICIAR SESION--</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Ingresa aqui tu direccion de correo</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

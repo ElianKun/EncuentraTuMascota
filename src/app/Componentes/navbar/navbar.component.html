@@ -1,1 +1,22 @@
-<p>navbar works!</p>
+<header class="bg-[color:var(--bg-secondary)] py-8 --border border-[color:var(--border)]">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <button id="logo"
+          class="flex items-center justify-center md:justify-start transform transition-transform duration-200">
+          <div
+            class="h-10 w-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-xl mr-3">
+            <a routerLink="/inicio"></a>L
+          </div>
+        </button>
+      </div>
+
+      <div class="text-center md:text-right">
+        <div class="text-center md:text-right">
+          <a id="registro" class="navbar-brand" routerLink="/login"><i
+              class="fa-solid fa-circle-user text-xl mr-3"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

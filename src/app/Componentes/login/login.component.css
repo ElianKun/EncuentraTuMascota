@@ -1,0 +1,42 @@
+#fondo {
+  background-color: rgb(167, 231, 154);
+  padding: 30px;
+  border-radius: 2ch;
+  border-style: groove;
+  height: 100%;
+}
+
+#main {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+  margin-top: 60px;
+
+  border-radius: 2ch;
+  border-style: groove;
+}
+.row {
+  justify-content: center;
+  margin: 2%;
+  border-radius: 2ch;
+  border-style: groove;
+}
+input{
+    margin: 5px; 
+    width: min-content;
+}
+.card {
+  width: 18rem;
+  height: auto;
+  margin: 1%;
+  padding: 0%;
+  border-radius: 2ch;
+  align-items: center;
+  
+}
+button{
+    border-radius: 3ch; width:100%; 
+    font-weight:bold; 
+    font-size: large; 
+    font-family:'Roboto', sans-serif; 
+    background-color: rgb(173, 126, 69); padding: 1%;
+}

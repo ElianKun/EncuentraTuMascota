@@ -1,3 +1,86 @@
-.contenedor-principal {
- background: #C1D5A8;
+#fondo {
+  background-color: rgb(167, 231, 154);
+  padding: 30px;
+  padding-top: 0px;
+  border-style: groove;
+}
+#main{
+  background-color: rgb(255, 255, 255);
+  padding-top:30px;
+  padding-bottom: 10px;
+  border-radius: 2ch;
+  border-style: groove;
+}
+#presentacion{
+  height: max-content;
+background-image: url(/assets/fondo1.png);  
+background-size: cover;
+
+background-repeat: no-repeat;
+background-position: center;
+
+}
+#menuPrincipal{
+    font-family: 'Poppins', sans-serif;
+}
+#logo:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+
+}
+#registro i:hover{
+    transform: scale(1.2);
+    filter: brightness(120%);
+
+}
+.container {
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bolder;
+  color: black;
+/*background-image: ;*/
+}
+h1 {
+    font-weight: 900;
+    text-align: left;
+}
+p {
+  font-size: larger;
+  text-align: left;
+}
+
+.row {
+  justify-content: center;
+  margin: 2%;
+  border-radius: 2ch;
+  border-style: groove;
+}
+.card {
+  width: 18rem;
+  height: auto;
+  margin: 1%;
+  padding: 0%;
+}
+.card:hover{
+    transform: scale(1.05);
+    filter: brightness(80%);
+    color: black;
+}
+#perdida {
+  background-color: rgb(167, 231, 154);
+}
+#hallazgo {
+  background-color: rgb(144, 232, 235);
+}
+#adopciones {
+  background-color: rgb(199, 152, 90);
+}
+#campañas {
+  background-color: rgb(199, 152, 90);
+}
+#explorar {
+  background-color: rgb(167, 231, 154);
+}
+#reencuentros {
+  background-color: rgb(144, 232, 235);
 }

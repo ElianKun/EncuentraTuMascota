@@ -1,0 +1,25 @@
+#fondo {
+  background-color: rgb(167, 231, 154);
+  padding: 30px;
+  border-style: groove;
+}
+
+#main {
+  background-color: rgb(240, 238, 238);
+  padding-bottom: 10px;
+  border-radius: 2ch;
+  border-style: groove;
+  padding: 2%;
+}
+.row {
+  justify-content: center;
+  margin: 2%;
+  border-radius: 2ch;
+  border-style: groove;
+}
+.card {
+  width: 18rem;
+  height: auto;
+  margin: 1%;
+  padding: 0%;
+}
